@@ -1,0 +1,228 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.left {
+    width: 14vw;
+    padding: 15px;
+}
+
+.right {
+    max-height: 10000px;
+    width: 90vw;
+   height: 100vh;
+}
+
+.Search {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home {
+    padding: 10px;
+}
+
+.Home ul li {
+    font-family: apple-system, BlinkMacSystemFont, Apple Color Emoji, SF Pro, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 2px;
+
+}
+
+.Music {
+    padding-top: 400px;
+}
+
+.footer1 {
+    display: flex;
+    gap: 0px;
+    margin: 1px;
+    padding: 19px;
+    font-size: 13px;
+}
+
+.arrow {
+    margin-left: 151px;
+    margin-top: -45px;
+}
+
+.arrow img {
+    height: 10px;
+}
+
+.footer1 img {
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+    margin-right: 9px;
+}
+
+.nav {
+    background-color: #2b2b2b;
+}
+
+.header * {
+    padding: 2px;
+
+
+}
+
+#mybutton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 35px;
+    width: 106px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button-text {
+    font-weight: 300;
+}
+
+h1 {
+    margin: 35px;
+    padding: 8px;
+    font-weight: 700;
+    line-height: 1.17649;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.cardContainer .card1 {
+    padding: 19px;
+    margin-left: 30px;
+
+}
+
+.cardContainer .card1 p1 {
+    font-size: smaller;
+    padding-bottom: 100px;
+    font-weight: bold;
+    color: #aeaeae;
+}
+
+.cardContainer .card1 h4 {
+    font-weight: 100;
+    padding-top: 6px;
+}
+
+.cardContainer .card1 .Apple_Music h4 {
+    color: #aeaeae;
+}
+
+footer {
+
+    background-color: #d60017;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+
+}
+
+footer h3 {
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.down h3 {
+    padding: 45px;
+}
+
+.down h5 {
+    margin-bottom: -68px;
+    font-weight: 249;
+}
+
+#Try {
+    position: relative;
+    top: -19px;
+    margin-left: 1371px;
+    letter-spacing: 0;
+    border-radius: 4px;
+    height: 32px;
+    min-width: 125px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: unset;
+    background: #fff;
+    color: #000;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+}
+
+
+
+.card1 {
+    padding: 8px;
+    position: relative;
+}
+
+.play {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    /* SVG width */
+    height: 20px;
+    /* SVG height */
+    border-radius: 50%;
+    /* Make it circular */
+    overflow: hidden;
+    background-color: transparent;
+    /* Default background color */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+    padding: 8px;
+    bottom: 26px;
+    right: 68px;
+
+}
+
+.play:hover {
+    background-color: #ff6961;
+    /* Hover background color */
+}
+
+.play img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.left {
+    flex: 0 0 200px; /* Fixed width for left div */
+    overflow: hidden; /* Hide any content that overflows */
+    scroll-behavior: smooth;
+}
